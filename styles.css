@@ -1,0 +1,94 @@
+:root{
+    --light-cyan:  hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --neu-grayish-blue: hsl(217, 19%, 38%);
+    --neu-dark-grayish-blue: hsl(217, 19%, 24%);
+    --neu-dark-blue:hsl(218, 23%, 16%);
+
+    --ff:'Manrope',serif;
+    --fw-bold:800;
+
+}
+
+
+*{
+    margin: 0;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+img,
+picture,
+svg{
+display: block;
+max-width: 100%;
+}
+
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: var(--neu-dark-blue);
+    color: var(--light-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff);
+}
+
+/*****
+genral styling
+****/
+
+.wrapper{
+    max-width: 500px;
+    padding: 1rem;
+    background-color: var(--neu-dark-grayish-blue);
+    border-radius: .875rem;
+    text-align: center;
+}
+
+.adviceId{
+    margin: 1rem;
+    color: var(--Neon-Green);
+    letter-spacing: .2rem;
+}
+
+.advice{
+    font-size: 28px;
+    padding: 1rem;
+}
+
+picture img {
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+
+.dice{
+    margin: 0 auto;
+    width: max-content;
+    padding: .5rem;
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+    
+}
+
+
+
+.dice:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px  2px var(--Neon-Green);
+}
+
+
+
